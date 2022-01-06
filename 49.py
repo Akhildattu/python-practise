@@ -1,0 +1,6 @@
+x=int(input("Enter number to covert  character "))
+y=chr(x)
+print(y,': ASCII Character')
+y=input("Enter character tp convert Number ")
+z=ord(y)
+print(z,': ASCII Number ')
