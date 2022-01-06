@@ -1,0 +1,10 @@
+import numpy as n
+arr=n.array([1,2,3,4,5,6,7,8,9])
+arr1=n.array([9,8,7,6,5,4,3,2,1])
+print(n.multiply(arr,arr1))
+arr=n.array([[1,2,3,4,5],[6,7,8,9,10]])
+arr1=n.array([[10,9,8,7,6],[5,4,3,2,1]])
+print(n.multiply(arr,arr1))
+arr=n.array([[1,2,3,4,5],[6,7,8,9,10],[11,12,13,14,15]])
+arr1=n.array([[10,9,8,7,6],[5,4,3,2,1],[15,14,13,12,11]])
+print(n.multiply(arr,arr1))

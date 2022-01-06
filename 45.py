@@ -1,0 +1,10 @@
+import numpy as n
+arr=n.array([1,2,3,4,5,6,7,8])
+arr2=n.array([1,2,3,4,5,6])
+print("3 dimension")
+print(arr.reshape(2,2,2))
+print("2 dimension")
+print(arr2.reshape(2,3))
+print("1 dimension")
+arr1=n.array([[1,2,3,4],[5,6,7,8]])
+print(arr1.reshape(-1))
